@@ -34,14 +34,14 @@ open client at http://localhost:8181 (JSON)
 
 ### Contributing
 
-If you have a Github account please fork the repository,
-create a topic branch, and commit your changes.
+If you have a Github account please fork the repository,  
+create a topic branch, and commit your changes.  
 Then submit a pull request from that branch.
 
 ### License
 
-Written by André Panisson, modified by Medialab.UFRJ
-Copyright (c) 2011 André Panisson <panisson@gmail.com>
+Written by André Panisson, modified by Medialab.UFRJ  
+Copyright (c) 2011 André Panisson <panisson@gmail.com>  
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at:
 
 http://www.apache.org/licenses/LICENSE-2.0
