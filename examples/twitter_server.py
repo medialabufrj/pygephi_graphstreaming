@@ -146,7 +146,7 @@ class RequestProcessor():
             self.handler.add_node(status.target, **attributes)
         
         attributes = {'directed':True, 'weight':2.0, 'date':str(status.date)}
-        self.handler.add_edge(status.status_id, status.source, status.target, **attributes)
+        self.handler.add_edge(status.status_id, status.source, status.target, status.text, **attributes)
 
 class RequestHandler(BaseHTTPRequestHandler):
 
