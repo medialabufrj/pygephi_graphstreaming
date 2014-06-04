@@ -13,6 +13,11 @@ In order to get a better layout, run the Force Atlas layout while running these 
 * python 2.x
 * tweepy
 
+### Installation
+
+* we recommend using python [virtualenv](https://github.com/medialabufrj/tutoriais/blob/master/tutorial-python-virtualenv.md)
+* update `stream.sh` with twitter API and token information
+
 ### Usage
 
 In the terminal:
