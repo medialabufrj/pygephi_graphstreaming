@@ -15,8 +15,16 @@ In order to get a better layout, run the Force Atlas layout while running these 
 
 ### Usage
 
+In the terminal:
+
 ```
 sh stream.sh hashtag_to_stream
+```
+
+In Gephi:
+
+```
+open client at http://localhost:8181 (JSON)
 ```
 
 ### Contributing
