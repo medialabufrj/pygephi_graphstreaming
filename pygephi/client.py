@@ -70,10 +70,11 @@ class JSONClient(object):
     def delete_node(self, id):
         self._send(json.dumps(self.peh({"dn":{id:{}}})) + '\r\n')
     
-    def add_edge(self, id, source, target, directed=True, **attributes):
+    def add_edge(self, id, source, target, text, directed=True, **attributes):
         attributes['source'] = source
         attributes['target'] = target
         attributes['directed'] = directed
+        attributes['text'] = text
         self.data += json.dumps(self.peh({"ae":{id:attributes}})) + '\r\n'
         if(self.autoflush): self.flush()
     
